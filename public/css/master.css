@@ -3,3 +3,155 @@
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Martel Sans', Helvetica, Arial, sans-serif;
 }
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 1vw;
+  line-height: 1.8vw;
+}
+
+.card {
+  display: inline;
+  float: left;
+  max-width: 24%;
+  padding: 1px;
+}
+
+.card img {
+  height: 25vw;
+}
+
+.card h5 {
+  font-size: 0.8vw;
+  font-weight: lighter;
+  color: #192AA3;
+  margin: 0;
+  max-width: 70%;
+}
+
+.card h5:hover {
+  color: coral;
+  cursor: pointer;
+}
+
+.card p {
+  margin-bottom: 2vw;
+}
+
+
+.category-container {
+  margin-top: 1vw;
+}
+
+.category-container a {
+ float: right;
+ text-decoration: none;
+ color: black;
+ margin-right: 5vw;
+}
+
+.category-container a p {
+  font-weight: bold;
+  font-size: 1.1vw;
+}
+
+.category-container a p:hover {
+  color: coral;
+}
+
+.category-container h3 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+  display: inline;
+  color: white;
+  background-color: black;
+  padding: 2px;
+}
+
+.category-container h4 {
+    text-transform: uppercase;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1vw;
+}
+
+.category-container ul {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.category-container ul li {
+  margin-right: 2vw;
+  cursor: pointer;
+}
+
+.introduction {
+  color: #192AA3;
+  margin-left: 29vw;
+  -webkit-width: 24vw;
+     -moz-width: 24vw;
+      column-width: 24vw;
+      column-gap: 50px;
+}
+.introduction p {
+  padding-right: 8vw;;
+}
+
+.menu {
+  width: 100%;
+  display: flex;
+}
+
+.menu article{
+  float: left;
+  margin-right: 3%;
+}
+
+.menu article h2 {
+  font-size: 1.3vw;
+  line-height: 1.5vw;
+}
+
+.menu article h2:hover {
+  color: coral;
+}
+
+.menu article h2::after {
+  content: ',';
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar ul {
+  border-top: solid 3px black;
+  list-style: none;
+  padding: 0 8.5vw 0 0;
+}
+
+.navbar ul:first-child {
+  margin-right: 12vw;
+}
+
+.title {
+  max-width: 28%;
+  font-size: 1.8vw;
+  line-height: 4vw;
+}
+
+.title a {
+  text-decoration: underline;
+  color: black;
+}
+
+.title h1 {
+  margin: 1% 0;
+}
