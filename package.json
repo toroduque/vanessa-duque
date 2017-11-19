@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
+    "build": "webpack -p",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --port 5000 --watch",
     "lint": "eslint **/*.{js,jsx} --quiet",
